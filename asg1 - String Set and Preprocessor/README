@@ -7,6 +7,6 @@ and passed a file with the suffix ".oc" as an arguement, it will create
 a new file with the same name but with the suffix ".str" in the current
 directory. 
 
-The accompanying ".str" will contain the dump data of the CPP
-preprocessed .oc file after it has been tokenized and inserted into the 
-unordered set hashmap of the string_set ADT.
+The accompanying ".str" will contain the dump data of the CPP preprocessed 
+.oc file after it has been tokenized and inserted into the unordered set 
+hashmap of the string_set ADT.
