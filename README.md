@@ -14,4 +14,4 @@ language file by:
   2. tokenizing the .oc file with a lexical analyzer written in Flex
   3. parsing the .oc file with a LALR(1) parser written in Bison
   4. type checking the contents of the .oc file using a symbol table data structure
-  5. traversing the parse tree for the .oc file and translating each line to oil
+  5. traversing the parse tree for the .oc file and translating each line to the oil language
