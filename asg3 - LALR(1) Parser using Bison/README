@@ -16,5 +16,5 @@ preprocessed .oc file after its tokens have been lexicographically
 analyzed and classified. 
 
 The accompanying ".ast" file will contain the dump data of the abstract 
-syntax tree for the CPPpreprocessed .oc file after it has been tokenized 
+syntax tree for the CPP preprocessed .oc file after it has been tokenized 
 by Flex and parsed by Bison.
