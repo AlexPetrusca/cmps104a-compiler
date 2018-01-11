@@ -1,7 +1,3 @@
-Alex Petrusca
-apetrusc@ucsc.edu
-1545846
-
 PROGRAM DESCRIPTION
 
 This program is compiled by running the "make" command-line instruction
@@ -9,6 +5,8 @@ in the working directory of this program, which contains a file named
 "Makefile". The executable created should be named "oc". When oc is run
 and passed a file with the suffix ".oc" as an arguement, it will create
 a new file with the same name but with the suffix ".str" in the current
-directory. The accompanying ".str" will contain the dump data of the CPP
+directory. 
+
+The accompanying ".str" will contain the dump data of the CPP
 preprocessed .oc file after it has been tokenized and inserted into the 
 unordered set hashmap of the string_set ADT.
