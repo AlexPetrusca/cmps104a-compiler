@@ -1,0 +1,68 @@
+__assert_fail (5.28.6) {0} void function 
+  expr (5.28.28) {1} string variable lval param 
+  file (5.28.41) {1} string variable lval param 
+  line (5.28.51) {1} int variable lval param 
+
+
+putb (5.29.6) {0} void function 
+  b (5.29.16) {2} int variable lval param 
+
+
+putc (5.30.6) {0} void function 
+  c (5.30.16) {3} int variable lval param 
+
+
+puti (5.31.6) {0} void function 
+  i (5.31.16) {4} int variable lval param 
+
+
+puts (5.32.6) {0} void function 
+  s (5.32.19) {5} string variable lval param 
+
+
+endl (5.33.6) {0} void function 
+
+
+getc (5.34.5) {0} int function 
+
+
+getw (5.35.8) {0} string function 
+
+
+getln (5.36.8) {0} string function 
+
+
+
+
+exit (5.38.6) {0} void function 
+  status (5.38.16) {11} int variable lval param 
+
+
+strcmp (6.8.5) {0} int function 
+  s1 (6.8.20) {12} string variable lval param 
+  s2 (6.8.31) {12} string variable lval param 
+
+  index (6.9.8) {12} int variable lval 
+  contin (6.10.8) {12} int variable lval 
+    s1c (6.12.11) {13} int variable lval 
+    s2c (6.13.11) {13} int variable lval 
+    cmp (6.14.11) {13} int variable lval 
+
+insertion_sort (6.22.6) {0} void function 
+  size (6.22.26) {14} int variable lval param 
+  string (6.22.32) {14} variable lval param 
+
+  sorted (6.23.8) {14} int variable lval 
+    slot (6.25.11) {15} int variable lval 
+    element (6.26.14) {15} string variable lval 
+    contin (6.27.11) {15} int variable lval 
+
+print_array (6.43.6) {0} void function 
+  label (6.43.26) {18} string variable lval param 
+  size (6.43.37) {18} int variable lval param 
+  string (6.43.43) {18} variable lval param 
+
+  index (6.47.8) {18} int variable lval 
+
+argv (6.55.10) {0} variable lval 
+argc (6.56.5) {0} int variable lval 

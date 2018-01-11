@@ -1,0 +1,20 @@
+Alex Petrusca
+apetrusc@ucsc.edu
+1545846
+
+PROGRAM DESCRIPTION
+
+This program is compiled by running the "make" command-line instruction
+in the working directory of this program, which contains a file named
+"Makefile". The executable created should be named "oc". When oc is run
+and passed a file with the suffix ".oc" as an arguement, it will create
+three new file with the same name but with the suffices ".str", ".tok",
+and ".ast" in the current directory. The accompanying ".str" will
+contain the dump data of the CPP preprocessed .oc file after it has
+been tokenized and inserted into the unordered set hashmap of the
+string_set ADT. The accompanying ".tok" file will contain the dump data
+of the CPP preprocessed .oc file after its tokens have been
+lexicographically analyzed and classified. The accompanying ".ast" file
+will contain the dump data of the abstract syntax tree for the CPP
+preprocessed .oc file after it has been tokenized by Flex and parsed by
+Bison.

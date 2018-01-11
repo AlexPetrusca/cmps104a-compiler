@@ -1,0 +1,90 @@
+int __argc;
+int __strcmp (
+   char* _12_s1,
+   char* _12_s2)
+{
+      int _12_index = 0;
+      int _12_contin = 1;
+while_6_11_4:;
+char b1 = _12_contin;
+   if (!b1) goto break_6_11_4;
+   int i2 =    __s1 (_13_index);
+   int _13_s1c = i2;
+   int i3 =    __s2 (_13_index);
+   int _13_s2c = i3;
+   int i4 =_13_s1c - _13_s2c;
+   int _13_cmp = i4;
+      char b5 = _13_cmp != 0;
+      if (!b5) goto fi_6_15_7;
+return _13_cmp;
+fi_6_15_7:;
+      char b6 = _13_s1c == _13_'\0';
+      if (!b6) goto fi_6_16_7;
+   _13_contin = 0;
+fi_6_16_7:;
+   int i6 = _13_index + 1 ;
+   _13_index = i6;
+   goto while_6_11_4:;
+break_6_11_4:
+   return 0;
+}
+struct s_void* __insertion_sort (
+   int _14_size,
+   struct s_[]* _14_string)
+{
+      int _14_sorted = 1;
+while_6_24_4:;
+   char b7 = _14_sorted < _14_size;
+   if (!b7) goto break_6_24_4;
+   int _15_slot = _15_sorted;
+   char* type8 =    __array (_15_slot);
+   char* _15_element = type8;
+   int _15_contin = 1;
+while_6_28_7:;
+char b9 = _15_contin;
+   if (!b9) goto break_6_28_7;
+   TOK_IFELSE
+   goto while_6_28_7:;
+break_6_28_7:
+   struct s_[* _15_array = _15_element;
+   int i9 = _15_sorted + 1 ;
+   _15_sorted = i9;
+   goto while_6_24_4:;
+break_6_24_4:
+}
+struct s_void* __print_array (
+   char* _18_label,
+   int _18_size,
+   struct s_[]* _18_string)
+{
+      __endl ();
+      __puts (_18_label);
+      __puts (_18_":\n");
+      int _18_index = 0;
+while_6_48_4:;
+   char b10 = _18_index < _18_size;
+   if (!b10) goto break_6_48_4;
+   __puts (_19_[);
+   __endl ();
+   int i10 = _19_index + 1 ;
+   _19_index = i10;
+   goto while_6_48_4:;
+break_6_48_4:
+}
+void __ocmain (void)
+{
+   struct s_[]* i11 =    __getargv ();
+   struct s_[]* __string = i11;
+   int _0_argc = 0;
+while_6_57_1:;
+   char b12 = __[ != __null;
+   if (!b12) goto break_6_57_1;
+int i12 = __argc + 1 ;
+__argc = i12;
+   goto while_6_57_1:;
+break_6_57_1:
+   __print_array (__"unsorted", __argc, __argv);
+   __insertion_sort (__argc, __argv);
+   __print_array (__"sorted", __argc, __argv);
+}
+end

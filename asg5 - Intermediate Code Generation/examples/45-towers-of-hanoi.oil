@@ -1,0 +1,29 @@
+struct s_void* __move (
+   char* _12_src,
+   char* _12_dst)
+{
+      __puts (_12_"Move a disk from ");
+      __puts (_12_src);
+      __puts (_12_" to ");
+      __puts (_12_dst);
+      __puts (_12_".\n");
+}
+struct s_void* __towers (
+   int _13_ndisks,
+   char* _13_src,
+   char* _13_tmp,
+   char* _13_dst)
+{
+         char b1 = _13_ndisks < 1;
+         if (!b1) goto fi_6_14_4;
+      TOK_RETURNVOID
+fi_6_14_4:;
+      __towers (_13_-, _13_src, _13_dst, _13_tmp);
+      __move (_13_src, _13_dst);
+      __towers (_13_-, _13_tmp, _13_src, _13_dst);
+}
+void __ocmain (void)
+{
+   __towers (__4, __"Source", __"Temporary", __"Destination");
+}
+end

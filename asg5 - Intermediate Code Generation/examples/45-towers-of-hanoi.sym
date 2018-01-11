@@ -1,0 +1,52 @@
+__assert_fail (5.28.6) {0} void function 
+  expr (5.28.28) {1} string variable lval param 
+  file (5.28.41) {1} string variable lval param 
+  line (5.28.51) {1} int variable lval param 
+
+
+putb (5.29.6) {0} void function 
+  b (5.29.16) {2} int variable lval param 
+
+
+putc (5.30.6) {0} void function 
+  c (5.30.16) {3} int variable lval param 
+
+
+puti (5.31.6) {0} void function 
+  i (5.31.16) {4} int variable lval param 
+
+
+puts (5.32.6) {0} void function 
+  s (5.32.19) {5} string variable lval param 
+
+
+endl (5.33.6) {0} void function 
+
+
+getc (5.34.5) {0} int function 
+
+
+getw (5.35.8) {0} string function 
+
+
+getln (5.36.8) {0} string function 
+
+
+
+
+exit (5.38.6) {0} void function 
+  status (5.38.16) {11} int variable lval param 
+
+
+move (6.5.6) {0} void function 
+  src (6.5.19) {12} string variable lval param 
+  dst (6.5.31) {12} string variable lval param 
+
+
+towers (6.13.6) {0} void function 
+  ndisks (6.13.18) {13} int variable lval param 
+  src (6.13.33) {13} string variable lval param 
+  tmp (6.13.45) {13} string variable lval param 
+  dst (6.13.57) {13} string variable lval param 
+
+

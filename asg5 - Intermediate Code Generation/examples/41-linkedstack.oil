@@ -1,0 +1,86 @@
+struct s_node {
+   char* __data;
+   struct s_node* __link;
+};
+struct s_stack {
+   struct s_node* __top;
+};
+Errorstack f_stack_stack;
+int __argi;
+int __empty (
+   struct s_stack* _12_stack)
+{
+            char b1 = !_13_!=;
+            if (!b1) goto fi_6_15_5;
+         ____assert_fail (_13_"stack != null", _13_"41-linkedstack.oc", 15);
+fi_6_15_5:;
+      ';'
+   return ==;
+}
+struct s_stack* __new_stack (
+)
+{
+struct stack* p2 = xcalloc (1, sizeof (struct _14_stack));
+struct s_stack* stack = p2;
+      struct s_.* _14_stack = null;
+   return _14_stack;
+}
+struct s_void* __push (
+   struct s_stack* _15_stack,
+   char* _15_str)
+{
+            char b3 = !_16_!=;
+            if (!b3) goto fi_6_26_5;
+         ____assert_fail (_16_"stack != null", _16_"41-linkedstack.oc", 26);
+fi_6_26_5:;
+      ';'
+struct node* p4 = xcalloc (1, sizeof (struct _15_node));
+struct s_node* tmp = p4;
+      struct s_.* _15_tmp = _15_str;
+      struct s_.* i5 =       __stack (_15_top);
+      struct s_.* _15_tmp = i5;
+      struct s_.* _15_stack = _15_tmp;
+}
+char* __pop (
+   struct s_stack* _17_stack)
+{
+            char b6 = !_18_!=;
+            if (!b6) goto fi_6_34_5;
+         ____assert_fail (_18_"stack != null", _18_"41-linkedstack.oc", 34);
+fi_6_34_5:;
+      ';'
+            char b7 = !_19_!;
+            if (!b7) goto fi_6_35_5;
+         ____assert_fail (_19_"! empty (stack)", _19_"41-linkedstack.oc", 35);
+fi_6_35_5:;
+      ';'
+      char* type8 =       __. (_17_data);
+      char* _17_tmp = type8;
+      struct s_.* i9 =       __. (_17_link);
+      struct s_.* _17_stack = i9;
+   return _17_tmp;
+}
+void __ocmain (void)
+{
+   struct s_[]* i10 =    __getargv ();
+   struct s_[]* __string = i10;
+   struct s_stack* i11 =    __new_stack ();
+   struct s_stack* _0_stack = i11;
+   int _0_argi = 0;
+while_6_47_1:;
+   char b12 = __[ != __null;
+   if (!b12) goto break_6_47_1;
+   __push (_20_stack, _20_[);
+   int i12 = _20_argi + 1 ;
+   _20_argi = i12;
+   goto while_6_47_1:;
+break_6_47_1:
+while_6_52_1:;
+   char b13 = !__(;
+   if (!b13) goto break_6_52_1;
+   __puts (_21_();
+   __endl ();
+   goto while_6_52_1:;
+break_6_52_1:
+}
+end
